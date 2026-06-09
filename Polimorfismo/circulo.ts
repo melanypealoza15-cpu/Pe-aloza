@@ -1,10 +1,16 @@
-class Circulo extends Figura {
+
+class Circulo extends Figura { // <- Heredar
     private radio: number;
 
+    //Requerido al instanciar esta clase
     constructor(radio: number) {
         super();
         this.radio = radio;
     }
+
+    //
+    // Metodos adicionales
+    //
 
     public getRadio(): number {
         return this.radio;
